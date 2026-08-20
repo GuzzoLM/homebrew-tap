@@ -1,6 +1,6 @@
 cask "alarm-radar" do
-  version "0.1.0"
-  sha256 "2cff551e6375467cabffe4bf5fe5a00f2a0b6e8f6a741643e58a1da76efa94a1"
+  version "0.1.1"
+  sha256 "2875225683a6b40acfb16f885a8b6c752793a3acdf15423222e1980ce510370c"
 
   url "https://github.com/GuzzoLM/alarm-radar/releases/download/v#{version}/AlarmRadar-#{version}.dmg"
   name "Alarm Radar"
