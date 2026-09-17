@@ -1,6 +1,6 @@
 cask "donna" do
-  version "0.1.2"
-  sha256 "e929d8e22040c99086e7dc22e3313f5018b7fe579ed8ddc6c03a5f90cf031b71"
+  version "0.1.3"
+  sha256 "4dc0c9b832b35016d41824337e09e7b23ed8b171a029e92af115540fda64587a"
 
   url "https://raw.githubusercontent.com/GuzzoLM/donna-releases/v#{version}/Donna-#{version}-macos-arm64.zip"
   name "Donna"
