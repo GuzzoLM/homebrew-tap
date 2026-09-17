@@ -8,7 +8,7 @@ cask "donna" do
   homepage "https://github.com/GuzzoLM/donna"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Donna.app"
 
