@@ -1,6 +1,6 @@
 cask "donna" do
-  version "0.1.3"
-  sha256 "4dc0c9b832b35016d41824337e09e7b23ed8b171a029e92af115540fda64587a"
+  version "0.1.4"
+  sha256 "19094f52cd6c73b10b2cc90744d23b8c7be02d81d56f01e0909f8e692b430ca1"
 
   url "https://raw.githubusercontent.com/GuzzoLM/donna-releases/v#{version}/Donna-#{version}-macos-arm64.zip"
   name "Donna"
@@ -9,6 +9,7 @@ cask "donna" do
 
   depends_on arch: :arm64
   depends_on macos: :ventura
+  depends_on formula: "gh"
 
   app "Donna.app"
 
